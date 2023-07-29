@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<hr />
+<div>
+	<h3 style="text-decoration: underline;">Directives & Pipes</h3><br/>
+	<h5 style="text-decoration: underline;">Structured Directive</h5>
+	<span *show="flag">This is example of Structured Directive Show/Hide</span>
+	<button (click)="showHide()">Click here to show/hide above text</button>
+	<br/><br/>
+	<h5 style="text-decoration: underline;">Atribute Directive</h5>
+	<span color>Click in this text to change its color</span>
+
+	<br/><br/>
+	<h5 style="text-decoration: underline;">Pipe</h5>
+	2 exponent 5 is <span>{{2 | power: 5}}</span>
+</div>

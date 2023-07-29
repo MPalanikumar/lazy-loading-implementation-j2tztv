@@ -1,0 +1,12 @@
+<h1>Ag Grid</h1>
+<hr/>
+<ag-grid-angular 
+style="width:1400px; height:600px;"
+class="ag-theme-balhm"
+(gridReady)="onGridReady($event)"
+[columnDefs]="colDef"
+[enableSorting]="true"
+[enableFilter]="true"
+[pagination]="true"
+[animateRows]="true"
+[sortingOrder]="defaultSortingOrder"></ag-grid-angular>
